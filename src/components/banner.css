@@ -1,0 +1,24 @@
+.webkit{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #af2676;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 80px;
+    background: url('../../public/back.png');
+    animation: back 20s linear infinite;
+    color: transparent;
+    background-position: 0 0;
+    background-clip: text; 
+}
+@keyframes back{
+
+    100%{
+
+        background-position: 2000px 0;
+    }
+
+}
+.name{
+    font-size: 80px;
+}
+

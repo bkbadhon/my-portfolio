@@ -1,0 +1,11 @@
+# Allow all crawlers to access everything
+User-agent: *
+Disallow: 
+
+# Specific disallow for crawlers (optional)
+User-agent: Googlebot-Image
+Disallow: /images/
+Disallow: /private/
+
+# Sitemaps
+Sitemap: https://www.badhonbarmon.top/sitemap.xml
